@@ -4,14 +4,6 @@ This repository contains a Twenty Twenty-Three [child theme](https://developer.w
 
 👉 [Check out the playback recording from this workshop](https://youtu.be/x93CeSgBl8U) 👈
 
-Or watch below...
-
-<iframe width="560" height="315"
-src="https://youtu.be/x93CeSgBl8U" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
 ## Requirements
 
 In order to use the `tt3child` theme:
