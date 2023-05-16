@@ -29,8 +29,9 @@ __Note:__ there is also an example `theme.json` file which includes some custom 
 ## Resources and further reading
 
 - [ACF PRO Blocks documentation](https://www.advancedcustomfields.com/resources/blocks/)
-- [WordPress Developer Resources > Nested Blocks: Using InnerBlocks](https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/nested-blocks-inner-blocks/)
+- [WordPress Developer Resources > __Metadata in `block.json`__](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/)
+- [WordPress Developer Resources > __Nested Blocks: Using InnerBlocks__](https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/nested-blocks-inner-blocks/)
 - [Gutenberg `templateLock` docs](https://github.com/WordPress/gutenberg/blob/37dc9f67575153857b59550fc964cc2954f45ce2/packages/block-editor/src/components/inner-blocks/README.md#templatelock)
-- [WordPress Developer Resources > Custom block styles](https://developer.wordpress.org/themes/advanced-topics/custom-block-styles/)
-- [WordPress Developer Resources > Variations](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-variations/)
+- [WordPress Developer Resources > __Custom block styles__](https://developer.wordpress.org/themes/advanced-topics/custom-block-styles/)
+- [WordPress Developer Resources > __Variations__](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-variations/)
 - [3 Ways to Curate the Editor Experience in WordPress](https://wpengine.com/builders/curate-editor-experience-wordpress/)
