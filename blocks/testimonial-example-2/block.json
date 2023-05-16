@@ -1,0 +1,15 @@
+{
+    "name": "acf/testimonial-example-2",
+    "title": "Testimonial Example 2 (InnerBlocks)",
+    "description": "A custom testimonial block with InnerBlocks.",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["testimonial", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "testimonial.php"
+    },
+    "supports": {
+        "jsx": true
+    }
+}

@@ -1,0 +1,57 @@
+{
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+	"settings": {
+		"blocks": {
+			"acf/testimonial-example-3": {
+				"color": {
+					"palette": [
+						{
+							"slug": "primary",
+							"color": "#02006b",
+							"name": "Primary background"
+						},
+						{
+							"slug": "secondary",
+							"color": "#700c60",
+							"name": "Secondary background"
+						},
+						{
+							"slug": "foreground",
+							"color": "#ffffff",
+							"name": "Foreground"
+						}
+					]
+				}
+			}
+		}
+	},
+	"styles": {
+		"blocks": {
+			"acf/testimonial-example-1": {
+				"css": "{outline:2px dotted orange;outline-offset:8px;}"
+			},
+			"acf/testimonial-example-2": {
+				"css": "{outline:2px dotted crimson;outline-offset:8px;}"
+			},
+			"acf/testimonial-example-3": {
+				"css": "{outline:2px dashed green;outline-offset:8px;}"
+			},
+			"acf/testimonial-example-4": {
+				"css": "{outline:2px ridge purple;outline-offset:8px;}"
+			},
+			"core/quote": {
+				"css": "{position: relative;} &::before {color:currentColor;content: \"“\";display:block;font-size:4rem;position:absolute;top:-1.4rem;z-index:10;}",
+				"spacing": {
+					"padding": {
+						"bottom": "0",
+						"left": "0",
+						"right": "0",
+						"top": "var(--wp--preset--spacing--30)"
+					}
+				}
+			}
+		},
+		"css": " .debug .entry-content > [class^=\"example-\"] {margin-block-end:4rem;outline:2px solid red;outline-offset:6px;position:relative;} .debug .entry-content > [class^=\"example-\"]::before {bottom:-2rem;color:red;content:attr(class);display:inline;font-size:0.92rem;position:absolute;text-align:center;z-index:10;}"
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "name": "acf/testimonial-example-3",
+    "title": "Testimonial Example 3 (Block Styles)",
+    "description": "A custom testimonial block using block styles.",
+    "style": [ "file:./testimonial.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["testimonial", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "testimonial.php"
+    },
+    "supports": {
+        "anchor": true
+    },
+    "styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "rounded", "label": "Rounded" },
+        { "name": "shadow", "label": "Shadow" }
+	],
+	"example": []
+}

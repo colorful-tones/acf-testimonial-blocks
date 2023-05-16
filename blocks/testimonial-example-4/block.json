@@ -1,0 +1,59 @@
+{
+    "name": "acf/testimonial-example-4",
+    "title": "Testimonial Example 4 (Variations)",
+    "description": "A custom testimonial block with variations.",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["testimonial", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "testimonial.php"
+    },
+    "supports": {
+        "anchor": true,
+        "jsx": true
+    },
+    "variations": [
+        {
+            "name": "imageleft",
+            "title": "Testimonial with image on left",
+			"isDefault": true,
+            "innerBlocks": [
+                [
+                    "core/columns",
+                    {},
+                    [
+                        ["core/column", {}, 
+                        [
+                           ["core/image"] 
+                        ]],
+                        ["core/column", {},
+                        [
+                            ["core/quote"]
+                        ]]
+                    ]
+                ]
+            ]
+        },
+        {
+            "name": "imageright",
+            "title": "Testimonial with image on right",
+            "innerBlocks": [
+                [
+                    "core/columns",
+                    {},
+                    [
+                        ["core/column", {}, 
+                        [
+                           ["core/quote"] 
+                        ]],
+                        ["core/column", {},
+                        [
+                            ["core/image"]
+                        ]]
+                    ]
+                ]
+            ]
+        }
+    ]
+}

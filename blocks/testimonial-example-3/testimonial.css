@@ -1,0 +1,28 @@
+.example-3 {
+	--testimonial-background-color--shadow: #000;
+	--testimonial-z-index--shadow: 1;
+}
+
+/* "Rounded" block style */
+.example-3.is-style-rounded:not(.is-style-default):not(.is-style-shadow) img {
+	border-radius: 9999px !important;
+}
+
+/* "Shadow" block style */
+.example-3.is-style-shadow:not(.is-style-default):not(.is-style-rounded) :where([class*=wp-block-image]) {
+	position: relative;
+	z-index: var(--testimonial-z-index--shadow);
+}
+
+/* "Shadow" block style */
+.example-3.is-style-shadow:not(.is-style-default):not(.is-style-rounded) :where([class*=wp-block-image])::before {
+	background-color: var(--wp--preset--color--secondary, --testimonial-background-color--shadow);
+	bottom: -10px;
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	left: -10px;
+	width: 100%;
+	z-index: calc(var(--testimonial-z-index--shadow) - 2);
+}

@@ -1,0 +1,17 @@
+{
+    "name": "acf/testimonial-example-1",
+    "title": "Testimonial Example 1",
+    "description": "A custom testimonial block that uses ACF fields.",
+    "style": [ "file:./testimonial.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["testimonial", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "testimonial.php"
+    },
+    "supports": {
+        "anchor": true,
+		"jsx": true
+    }
+}
