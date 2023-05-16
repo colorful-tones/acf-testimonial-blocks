@@ -4,7 +4,8 @@
 }
 
 /* "Rounded" block style */
-.example-3.is-style-rounded:not(.is-style-default):not(.is-style-shadow) img {
+.example-3.is-style-rounded:not(.is-style-default):not(.is-style-shadow) img,
+.example-3.is-style-rounded:not(.is-style-default):not(.is-style-shadow) .block-editor-media-placeholder {
 	border-radius: 9999px !important;
 }
 

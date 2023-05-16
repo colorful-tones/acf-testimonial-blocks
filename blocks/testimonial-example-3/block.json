@@ -18,5 +18,7 @@
         { "name": "rounded", "label": "Rounded" },
         { "name": "shadow", "label": "Shadow" }
 	],
-	"example": []
+	"example": {
+		"viewportWidth": 900
+	}
 }
