@@ -26,6 +26,8 @@ There are four different versions of a testimonial ACF Block. Each one is a diff
 
 __Note:__ there is also an example `theme.json` file which includes some custom per-block CSS for each block. This is solely to help debug and demonstrate how one might consider using `theme.json` to provide unique styling entries for each block.
 
+<figure><img src="https://i.imgur.com/CuIlzal.png" alt="screenshot of WordPress block editor with testimonial blocks placed"><figcaption>Screenshot of block editor with all testimonial block examples placed</figcaption></figure>
+
 ## Resources and further reading
 
 - [ACF PRO Blocks documentation](https://www.advancedcustomfields.com/resources/blocks/)
