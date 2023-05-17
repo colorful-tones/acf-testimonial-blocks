@@ -11,7 +11,6 @@
         "renderTemplate": "testimonial.php"
     },
     "supports": {
-        "anchor": true,
-		"jsx": true
+        "anchor": true
     }
 }
